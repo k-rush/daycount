@@ -1,4 +1,3 @@
-import _mysql
 import time
 import datetime
 import math
