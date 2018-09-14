@@ -12,10 +12,10 @@ display.begin()
 #debug
 print datetime.datetime.now()
 
-sober = date(2016, 8, 18)
-daycount = datetime.datetime.now() - sober
+sober = datetime.date(2016, 8, 18)
+daycount = datetime.date.today() - sober
 
-print daycount
+print daycount.days
 
 #-----------display-------------------
 
