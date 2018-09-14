@@ -13,7 +13,7 @@ display.begin()
 print datetime.datetime.now()
 
 sober = datetime.date(2016, 8, 18)
-daycount = datetime.date.today() - sober
+daycount = (datetime.date.today() - sober).astype(int)
 
 print daycount.days
 
