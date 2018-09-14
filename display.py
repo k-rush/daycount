@@ -21,10 +21,10 @@ print daycount.days
 
 #totalDisplay.clear()
 
-unclosedDisplay.clear()
+display.clear()
 
-unclosedDisplay.set_digit(3, int(daycount) % 10) #ones
-unclosedDisplay.set_digit(2, int(int(daycount)/10) % 10) #tens
-unclosedDisplay.set_digit(1, int(int(daycount)/100) % 10) #hundreds
-unclosedDisplay.set_digit(0, int(int(daycount)/1000) % 10) #thousands
-unclosedDisplay.write_display()
+display.set_digit(3, int(daycount) % 10) #ones
+display.set_digit(2, int(int(daycount)/10) % 10) #tens
+display.set_digit(1, int(int(daycount)/100) % 10) #hundreds
+display.set_digit(0, int(int(daycount)/1000) % 10) #thousands
+display.write_display()
